@@ -1,0 +1,70 @@
+@media screen and (max-width: 769px) {
+  header{
+    height: 18vh;
+    width: 100vw;
+  }
+  .nav-icons{
+    align-items: flex-start;
+    margin-right: 1rem;
+    height: 69%;
+  }
+  .nav-links li, .nav-links img{
+    display: none;
+  }
+  header input{
+    background: white url(./assets/search.png) no-repeat 3% 7px;
+    width: 96%;
+    height: 33px;
+    font-size: 12px;
+    align-self: flex-end;
+    position: absolute;
+    margin: 0 10px 4px 10px;
+  }
+  .logo{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .logo img{ 
+    width: 65px;
+  }
+  .nav-icons img:nth-child(2){
+    display: none;
+  }
+  .running{
+    font-size: 12px;
+  }
+  .running p{
+  letter-spacing: 0px;
+  }
+  .earbud{
+    font-size: 30px;
+  }
+  .trending-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+  .trending-products img{
+    max-width: 400px;
+    object-fit: cover;
+  }
+  .line1{
+    display: none;
+    
+  }
+  .icon{
+    width: 50%;
+  }
+  footer{
+    position: absolute;
+    top: 316%;
+  }
+  .prev, .next{
+    display: none;
+  }
+  
+}

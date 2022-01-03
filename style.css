@@ -102,7 +102,7 @@ input::placeholder {
 .running{
   width: 100vw;
   height: 15vh;
-  font-size: 25px;
+  font-size: 19px;
   color: white;
   display: flex;
   align-items: center;
@@ -112,7 +112,7 @@ input::placeholder {
 .running p{
   padding-left: 3px;
   color: white;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 .earbud{
@@ -127,7 +127,7 @@ input::placeholder {
 }
 .trending-products{
   height: 70vh;
-  margin-left: 3rem;
+  margin: 0 1rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: 'img1 img2 img3';
@@ -135,6 +135,7 @@ input::placeholder {
 .trending-products :nth-child(1){
   grid-area: img1;
   border-radius: 10px;
+  width: 340px;
 }
 .trending-products :nth-child(2){
   grid-area: img2;
@@ -142,6 +143,7 @@ input::placeholder {
 .trending-products :nth-child(3){
   grid-area: img3;
   border-radius: 10px;
+  width: 330px;
 }
 
 /* footer */
@@ -191,7 +193,6 @@ input::placeholder {
   font-weight: lighter;
   letter-spacing: 1px;
 }
-
 .icon{
   width: 20%;
   margin: 26px 0;
